@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+
+.app-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 14px;
+  color: #2afff4;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  background: #f9f6f6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  /* background: #6c63ff; */
+  color: #baafaf;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background: #ccc;
+}
+
+.response-section {
+  margin-top: 15px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.generated-reply {
+  background: #39423a5d;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c8e6c9;
+}
+
+.generated-reply h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin: 0 0 5px;
+}
+#Generate {
+  background-color: oklch(0.496 0.265 301.924); /* Indigo color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+#Generate:hover {
+  background-color: #4338ca; /* Darker indigo */
+}
+
+#Generate:disabled {
+  background-color: #a1a1aa;
+  cursor: not-allowed;
+}
+
+.email-replies-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.email-replies-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e9b6b6;
+    margin-bottom: 0.5rem;
+}
+
+.email-replies-subtitle {
+    font-size: 0.9rem;
+    color: #757575;
+}
+.email-details-card {
+  background-color: rgba(185, 203, 213, 0.178); /* Light purple background */
+  padding: 1rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.email-details-icon {
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-details-content {
+  text-align: left;
+}
+
+.email-details-title {
+  font-weight: 600;
+  margin: 0;
+  font-size: 1rem;
+  color: #f3ebebe4;
+}
+
+.email-details-description {
+  font-size: 0.875rem;
+  color: #ffffff;
+  margin: 0.25rem 0 0;
+}
