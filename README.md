@@ -31,7 +31,7 @@ This project is a **React + Vite** frontend application that works with a **Spri
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-repo/email-reply-generator.git
+git clone https://github.com/SahilShaw2004/Ai-powered-Mail-Reply-Generatorx.git
 cd email-reply-generator
 ```
 
