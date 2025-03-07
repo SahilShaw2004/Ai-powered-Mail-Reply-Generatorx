@@ -269,7 +269,11 @@ button:disabled {
   .gradient-2 {
       display: none;
   }
-  
+  body {
+    background-position: center;
+    animation: none;
+    overflow: clip;
+    }
 }
 
 @media (max-width: 480px) {
@@ -290,5 +294,6 @@ button:disabled {
   body {
     background-position: center;
     animation: none;
+    overflow: clip;
     }
 }
