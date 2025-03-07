@@ -23,7 +23,7 @@ body {
 }
 
 .app-container {
-  width: 100%;
+  width: 1200px;
   max-width: 1200px;
   padding: 20px;
   box-sizing: border-box;
@@ -284,7 +284,11 @@ button:disabled {
     display: none;
   }
   .email-details-card {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
+  body {
+    background-position: center;
+    animation: none;
+    }
 }
